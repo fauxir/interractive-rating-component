@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    background: #141519;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-container{
+    width: fit-content;
+    height: fit-content;
+    background-image: radial-gradient(circle at top, #212935, #1d2530, #171E28, transparent 70%);
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 20px 20px;
+}
+
+.star-element{
+    margin: 50px 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img-style{
+    background: #262F38;
+    width: 1.3em;
+    height: 1.3em;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.star-size{
+    height: 25px;
+    position: absolute;
+    margin: 1em 1px 1px 1em;
+
+}
+
+.text-title{
+    margin: 50px 50px 10px 50px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    
+}
+
+.main-text{
+    margin: 10px 50px 50px 50px;
+    color: #969DA7;
+    max-width: 550px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.rating{
+    color: #969DA7;
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    margin: 0.5em;
+}
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    padding: 1.1rem;
+    margin: 40px 50px;
+    border-radius: 2em;
+}
+
+.submit-btn:hover{
+    background: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(25, 97%, 53%);
+    padding: 1.1rem;
+    margin: 40px 50px;
+    border-radius: 2em;
+    cursor: pointer;
+
+}
+
+#rate-syle5{
+    background: #262F38;
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+}
+
+#rate-syle4{
+    background: #262F38;
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+}
+
+#rate-syle3{
+    background: #262F38;
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+}
+
+#rate-syle2{
+    background: #262F38;
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+}
+
+#rate-syle1{
+    background: #262F38;
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+}
+
+#rate-syle1:hover{
+    background: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
+
+#rate-syle2:hover{
+    background: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
+
+#rate-syle3:hover{
+    background: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
+
+#rate-syle4:hover{
+    background: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
+
+#rate-syle5:hover{
+    background: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 3em;
+    width: 1.3em;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
